@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-image: url(https://art.pixilart.com/original/sr28bef7ccccbaws3.gif);
+    background-size: cover;
+    color: white;
+}
+body{
+    background-image: url(https://art.pixilart.com/original/sr28bef7ccccbaws3.gif);
+    background-size: cover;
+}
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 30px;
+}
+nav > ul li {
+    padding: 20px 15px;
+    font-weight: bold;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.425);
+}
+
+.team-highlight {
+    color: rgb(21, 204, 228);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    justify-items: center;
+}
+
+.headline {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.team-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.team-member {
+    /* background-color: white; */
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2260310642883165566/A9BA0BCAB3D22F5FCC8675D264A781D5D363835B/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+}
+
+.team-member img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+    color: white;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.icons ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+.icons svg {
+    width: 28px;
+    height: 28px;
+}
