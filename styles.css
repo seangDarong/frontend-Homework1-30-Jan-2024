@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0; 
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -55,7 +55,6 @@ h1{
 .team-member {
     /* background-color: white; */
     background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2260310642883165566/A9BA0BCAB3D22F5FCC8675D264A781D5D363835B/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
-    
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
