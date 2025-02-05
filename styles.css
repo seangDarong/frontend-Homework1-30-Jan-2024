@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Uncial Antiqua', cursive;
 }
 
 body {
@@ -52,10 +52,8 @@ p{
     margin-top: 30px;
 }
 
-.team-member {
-    /* background-color: white; */
-    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2260310642883165566/A9BA0BCAB3D22F5FCC8675D264A781D5D363835B/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
-    
+.team-member{
+    width: 100%;
     padding: 15px;
     text-align: center;
     background-color: #556B2F;
@@ -69,9 +67,8 @@ p{
     border-radius: 5%;
 }
 
-.team-member h3 {
-    margin: 10px 0;
-    
+.team-member >h3{
+    margin-top: 5px;
 }
 
 .icons ul {
@@ -83,9 +80,6 @@ p{
 .icons svg {
     width: 20px;
     height: 20px;
-}
-.team-member p {
-    font-size: 14px;
 }
 
 .team-member{
